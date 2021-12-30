@@ -13,6 +13,10 @@
 		E92C2418277D90130005AD3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92C2417277D90130005AD3B /* Preview Assets.xcassets */; };
 		E92C2423277D90130005AD3B /* RealmCrazyProgramming_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92C2422277D90130005AD3B /* RealmCrazyProgramming_IOSTests.swift */; };
 		E92C242E277D90130005AD3B /* RealmCrazyProgramming_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92C242D277D90130005AD3B /* RealmCrazyProgramming_IOSUITests.swift */; };
+		E92C2440277D95150005AD3B /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92C243F277D95150005AD3B /* AddTaskView.swift */; };
+		E92C2445277D95610005AD3B /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92C2444277D95610005AD3B /* TasksView.swift */; };
+		E92C244B277D95F10005AD3B /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92C244A277D95F10005AD3B /* TaskRow.swift */; };
+		E92C2453277D962B0005AD3B /* AddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92C2452277D962B0005AD3B /* AddButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		E92C2429277D90130005AD3B /* RealmCrazyProgramming-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RealmCrazyProgramming-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92C242D277D90130005AD3B /* RealmCrazyProgramming_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmCrazyProgramming_IOSUITests.swift; sourceTree = "<group>"; };
 		E92C242F277D90130005AD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92C243F277D95150005AD3B /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		E92C2444277D95610005AD3B /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		E92C244A277D95F10005AD3B /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		E92C2452277D962B0005AD3B /* AddButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +103,9 @@
 		E92C240F277D90120005AD3B /* RealmCrazyProgramming-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				E92C2449277D95930005AD3B /* utility */,
+				E92C243E277D949F0005AD3B /* views */,
 				E92C2410277D90120005AD3B /* RealmCrazyProgramming_IOSApp.swift */,
-				E92C2412277D90120005AD3B /* ContentView.swift */,
 				E92C2414277D90130005AD3B /* Assets.xcassets */,
 				E92C2419277D90130005AD3B /* Info.plist */,
 				E92C2416277D90130005AD3B /* Preview Content */,
@@ -128,6 +137,25 @@
 				E92C242F277D90130005AD3B /* Info.plist */,
 			);
 			path = "RealmCrazyProgramming-IOSUITests";
+			sourceTree = "<group>";
+		};
+		E92C243E277D949F0005AD3B /* views */ = {
+			isa = PBXGroup;
+			children = (
+				E92C2412277D90120005AD3B /* ContentView.swift */,
+				E92C243F277D95150005AD3B /* AddTaskView.swift */,
+				E92C2444277D95610005AD3B /* TasksView.swift */,
+				E92C244A277D95F10005AD3B /* TaskRow.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		E92C2449277D95930005AD3B /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				E92C2452277D962B0005AD3B /* AddButtonView.swift */,
+			);
+			path = utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E92C244B277D95F10005AD3B /* TaskRow.swift in Sources */,
+				E92C2440277D95150005AD3B /* AddTaskView.swift in Sources */,
 				E92C2413277D90120005AD3B /* ContentView.swift in Sources */,
 				E92C2411277D90120005AD3B /* RealmCrazyProgramming_IOSApp.swift in Sources */,
+				E92C2453277D962B0005AD3B /* AddButtonView.swift in Sources */,
+				E92C2445277D95610005AD3B /* TasksView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
