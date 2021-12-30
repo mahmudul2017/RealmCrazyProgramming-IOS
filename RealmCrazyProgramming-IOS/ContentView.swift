@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  RealmCrazyProgramming-IOS
 //
-//  Created by Jaman on 30/12/21.
+//  Created by Mahmudul on 30/12/21.
 //
 
 import SwiftUI
