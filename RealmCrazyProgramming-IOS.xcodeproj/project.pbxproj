@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E91DB40C2781AEFC0059C745 /* UpdateTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91DB40B2781AEFC0059C745 /* UpdateTaskView.swift */; };
 		E92C2411277D90120005AD3B /* RealmCrazyProgramming_IOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92C2410277D90120005AD3B /* RealmCrazyProgramming_IOSApp.swift */; };
 		E92C2413277D90120005AD3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92C2412277D90120005AD3B /* ContentView.swift */; };
 		E92C2415277D90130005AD3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92C2414277D90130005AD3B /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E91DB40B2781AEFC0059C745 /* UpdateTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTaskView.swift; sourceTree = "<group>"; };
 		E92C240D277D90120005AD3B /* RealmCrazyProgramming-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RealmCrazyProgramming-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92C2410277D90120005AD3B /* RealmCrazyProgramming_IOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmCrazyProgramming_IOSApp.swift; sourceTree = "<group>"; };
 		E92C2412277D90120005AD3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				E92C243F277D95150005AD3B /* AddTaskView.swift */,
 				E92C2444277D95610005AD3B /* TasksView.swift */,
 				E92C244A277D95F10005AD3B /* TaskRow.swift */,
+				E91DB40B2781AEFC0059C745 /* UpdateTaskView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				E92C2453277D962B0005AD3B /* AddButtonView.swift in Sources */,
 				E92C2461277DCDAC0005AD3B /* RealmManager.swift in Sources */,
 				E92C2467277DD0840005AD3B /* TaskModel.swift in Sources */,
+				E91DB40C2781AEFC0059C745 /* UpdateTaskView.swift in Sources */,
 				E92C2445277D95610005AD3B /* TasksView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

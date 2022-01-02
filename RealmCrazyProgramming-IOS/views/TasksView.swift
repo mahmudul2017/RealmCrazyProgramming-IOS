@@ -21,7 +21,16 @@ struct TasksView: View {
             List {
                 ForEach(realmManager.tasks, id: \.id) { task in
                     if !task.isInvalidated {
-                        TaskRow(task: task.title, completed: task.isComplete)
+                        TaskRow(id: task.id, task: task.title, completed: task.isComplete)
+                            
+                        
+//                            .swipeActions(edge: .trailing) {
+//                                Button(role: .destructive) {
+//                                    
+//                                } label: {
+//                                    Label("Delete", systemImage: "trash")
+//                                }
+//                            }
                     }
                 }
             }
@@ -32,6 +41,8 @@ struct TasksView: View {
             
             Spacer()
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+        .background(Color(hue: 0.086, saturation: 0.141, brightness: 0.972))
     }
 }
 

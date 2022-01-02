@@ -25,7 +25,7 @@ struct ContentView: View {
         .sheet(isPresented: $showAddTaskView) {
             AddTaskView()
                 .environmentObject(realmManager)
-                .ignoresSafeArea()
+                //.ignoresSafeArea()
             
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
